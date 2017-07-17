@@ -1,0 +1,29 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Account Manager\Accounts\sakeatg@advayads.mysouqa.com]
+"DCEmail"=dword:00000002
+"IMAP Server"="cp-19.webhostbox.net"
+"IMAP Port"=dword:000003e1
+"SMTP Server"="cp-19.webhostbox.net"
+"SMTP Port"=dword:000001d1
+"Connection Type"=dword:00000003
+"IMAP User Name"="sakeatg@advayads.mysouqa.com"
+"SMTP Display Name"="sakeatg@advayads.mysouqa.com"
+"SMTP Email Address"="sakeatg@advayads.mysouqa.com"
+"SMTP Reply To Email Address"="sakeatg@advayads.mysouqa.com"
+"SMTP Organization Name"=""
+"Account Name"="sakeatg@advayads.mysouqa.com"
+"IMAP Timeout"=dword:0000003c
+"SMTP Timeout"=dword:0000003c
+"IMAP Secure Connection"=dword:00000001
+"IMAP Skip Account"=dword:00000000
+"IMAP Prompt for Password"=dword:00000001
+"SMTP User Name"="sakeatg@advayads.mysouqa.com"
+"SMTP Use Sicily"=dword:00000002
+"SMTP Secure Connection"=dword:00000001
+"SMTP Split Messages"=dword:00000000
+"SMTP Prompt for Password"=dword:00000000
+"IMAP Root Folder"=""
+"IMAP Polling"=dword:00000001
+"IMAP Poll All Folders"=dword:00000001
+"IMAP Dirty"=dword:00000000
