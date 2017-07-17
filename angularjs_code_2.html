@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<!--
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
+<body background="images/bg.jpg" >
+<div id="html_content" style="text-align: center;">
+<h1 style="color: grey;font-family: Arial; text-align: center;  text-shadow: 2px 2px green;">REALTIME BLOG WRITER </h1>
+
+<h3 style="color: white;font-family: Arial; text-align: center;" id="dd"></h3>
+<div ng-app="">
+ 
+
+<p style="color:white;font-family: Arial;font-size: 16px;font-weight: bold;">Title <input type="text"  ng-model="title" name="title"  size="80"> <br/><br/> Content <textarea ng-model="blog" rows="5" cols="100" name="blog" onkeydown="document.getElementById('bg').html=this.text;"></textarea>
+
+
+
+</p>
+<hr>
+
+<!-- <p>Name: <input type="text" ng-model="name" rows="10" cols="10"></p> -->
+<h2 ng-bind="title" style="color: red;font-family: Arial; "></h2>
+<hr>
+<p ng-bind="blog"  style="color: red;font-family: Arial; size: 16px;" id="bg"></p>
+
+</div>
+</div>
+
+<script type="text/javascript">
+var today = new Date();
+
+
+document.getElementById("dd").innerHTML=today;
+
+</script>
+</body>
+</html>
